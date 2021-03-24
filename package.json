@@ -2,9 +2,11 @@
   "name": "find-to-do",
   "private": true,
   "scripts": {
-    "start": "node todo.js"
+    "start": "node todo.js",
+    "test": "jest"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "jest": "^26.6.3"
   }
 }
